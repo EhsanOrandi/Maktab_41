@@ -1,0 +1,21 @@
+.main{
+    width: 30%;
+}
+
+.top-form{
+    margin: 2% 8% 2% 25%;
+}
+
+.form-label{
+    padding-left: 10%;
+    margin-top: 5%;
+}
+
+.form-input{
+    width: 65%;
+    margin: 3% 5% 0% 0%;
+}
+
+#pass-label{
+    padding-left: 4%;
+}
