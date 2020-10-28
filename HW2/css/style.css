@@ -1,0 +1,90 @@
+@font-face{
+    font-family: yekan;
+    src: url('../font/Yekan.ttf')
+}
+
+*{
+    direction: rtl;
+    color: white;
+    font-family: yekan;
+}
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
+
+.main{
+    margin: 5% auto 5%;
+    width: 21%;
+}
+
+h1, h3{
+    text-align: center;
+    padding: 2%;
+}
+
+h1{
+    font-size: 32pt;
+}
+
+h3{
+    font-size: 17pt;
+}
+
+input{
+    width: 91%;
+    background: none;
+    border: none;
+    margin-bottom: 1%;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 100%;
+    background-color: dodgerblue;
+    margin-top: 8%;
+    margin-left: 0;
+    padding: 3%;
+    border: none;
+    border-radius: 5%;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: white;
+    font-size: 11pt;
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.remember_label, a{
+    font-size: 9pt;
+    font-weight: bolder;
+}
+
+.input-fields{
+    border-bottom: 1px solid white;
+    margin: 15% 0 10% 0;
+    padding: 0;
+}
+
+.remember-forget > input{
+    width: 5%;
+    margin: 5% 0 1% 0%;
+}
+
+.remember-forget > a{
+    margin-right: 10%;
+}
+
+img{
+    margin: 20% 47% 0 47%;
+}
