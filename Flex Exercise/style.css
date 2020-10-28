@@ -1,0 +1,62 @@
+.flex-container{
+    width: 32%;
+    margin: 0 auto 0;
+    display: flex;
+    background-color: #CDEB8B;
+    flex-wrap: wrap;
+}
+
+.row-2{
+    width: 100%;
+    display: flex;
+}
+
+.row-2 > .large{
+    margin-right: 17.5%;
+}
+
+.row-3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row-4 > div:nth-child(2){
+    margin-right: 15%;
+}
+
+.row-6{
+    width: 100%;
+    display: flex;
+}
+
+.row-6 > div:first-child{
+    margin-left: 35.25%;
+    margin-right: 15%;
+}
+
+.row-7{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small{
+    background-color: #D9E8FB;
+    width: 65px;
+    height: 65px;
+    margin: 4.5px;
+}
+
+.large{
+    background-color: #FFE6CD;
+    width: 200px;
+    height: 65px;
+    margin: 4.5px;
+}
